@@ -20,5 +20,5 @@ async def on_message(message):
     if messageContent[-1]=="quoi":
         await message.channel.send(f"feur !")
 
-
-bot.run("OTAwMDgzNjU5NDQzNDE3MTI5.YW8KOw.uzB2HjHRfRAA33cd2BDH8VNBBv0")
+token = open('../token.txt', 'r').readlines()[0]
+bot.run(token)
