@@ -282,7 +282,7 @@ async def on_message(message:Message):
         if i == "paimon":
             await message.channel.send("On parle de moi ??")
             await message.channel.send("On doit surement dire que je suis la plus belle et la plus intelligente !")
-            await message.channel.send("PS : voici ma musique préférée ! https://www.tomorrowtides.com/music-genshin-impact.html")
+            await message.channel.send("PS : voici ma musique préférée ! https://r.mtdv.me/UjJ2bBHjhP")
     for i in ponctuation:
         if messageContent[-1]==i:
             messageContent=messageContent[:len(messageContent)-1]
